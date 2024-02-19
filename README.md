@@ -4,7 +4,7 @@ A lot of people in the data science space and people I look up to have always sa
 
 Data cleaning is the bedrock of everything and this particular project really exposed me to that, I spent over 2 hours cleaning and validating the values in this data until I was confident that it was clean enough to answer some of the questions I prepared for this project.
 
-Before analyzing the data, I took a look at the general overview of the data to see the kind of data cleaning that would be carried out on the data. The dataset contains 13 columns and 148654 entries. 
+Before analyzing the data, I took a look at the general overview of the data to see the kind of data cleaning that would be carried out. The dataset contains 13 columns and 148654 entries. 
 
 Looking at some of the columns such as Benefits, BasePay, Notes, and Status, I could already see that we have missing data as they are not up to 148654 entries. Also, some of the columns have mismatched data types, a good example would be BasePay, OvertimePay, OtherPay, Benefits which are supposed to be floats so we can carry out quantitative analysis on them but they are in object form.
 
@@ -27,7 +27,7 @@ The following columns were also dropped and the reasons are stated below as well
 8.	Index of employee with the highest basepay
 9.	Employee with the highest basepay
 10.	Average BasePay of all employee by year
-11.	Average BasePay of all employee by per job title
+11.	Average BasePay of all employee per job title
 12.	Average BasePay of all employee with job title accountant
 13.	Top 5 most common jobs
 14.	Percentage of each Job title
